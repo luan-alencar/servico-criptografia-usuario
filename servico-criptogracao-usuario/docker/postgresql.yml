@@ -1,0 +1,10 @@
+version: '2'
+services:
+  servico-criptogracao:
+    image: postgres:11.5-alpine
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+       - 5432:5432

@@ -11,6 +11,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "TB_USUARIO")
 public class Usuario implements Serializable {
 

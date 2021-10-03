@@ -1,0 +1,6 @@
+version: '2'
+services:
+  servico-criptogracao:
+    extends:
+      file: postgresql.yml
+      service: servico-criptogracao
