@@ -10,10 +10,12 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@AllArgsConstructor
+@Entity
 @NoArgsConstructor
-@Entity(name = "TB_USUARIO")
+@AllArgsConstructor
+@Table(name = "TB_USUARIO")
 public class Usuario implements Serializable {
+    private static final long serialVersionUID = -995090643827754770L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
