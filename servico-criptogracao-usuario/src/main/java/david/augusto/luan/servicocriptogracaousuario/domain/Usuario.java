@@ -15,7 +15,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Table(name = "TB_USUARIO")
 public class Usuario implements Serializable {
-    private static final long serialVersionUID = -995090643827754770L;
+    private static final long serialVersionUID = 1749346582222698479L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
